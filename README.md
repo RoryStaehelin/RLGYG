@@ -14,6 +14,8 @@ If you want to have this script run on windows startup, follow these steps:
 
 !!!
 
-RLGYG.py will exit when you close the console, but since RLGYG.pyw doesn't use a console, to exit it you will need to end the task in the task manager.
+RLGYG.py will exit when you close the console, but since RLGYG.pyw doesn't use a console, to exit it you will need to close python in the task manager.
 
 !!!
+
+I recommend you use RLGYG.pyw most of the time, and only use RLGYG.py if you experience issues.
