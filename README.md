@@ -1,5 +1,5 @@
 # RLGYG
-This is a small python script which makes sure Gif Your Game is only running while Rocket League is open
+This is a small python script which makes sure Gif Your Game is only running while Rocket League is open (Conserving valuable CPU performance in other games / regular desktop use)
 
 
 If you want to have this script run on windows startup, follow these steps:
