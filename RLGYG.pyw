@@ -12,7 +12,6 @@ rlEXE = "RocketLeague.exe"
 gygEXE = "Gif Your Game.exe"
 gygPATH = "C:\\Users\\Rory\\AppData\\Local\\Programs\\badpanda-react\\Gif Your Game.exe"
 GYG = False
-sleep(1)
 
 if isrunning(gygEXE):
     GYG = True

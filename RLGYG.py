@@ -13,7 +13,6 @@ gygEXE = "Gif Your Game.exe"
 gygPATH = "C:\\Users\\Rory\\AppData\\Local\\Programs\\badpanda-react\\Gif Your Game.exe"
 GYG = False
 print("Program running")
-sleep(1)
 
 if isrunning(gygEXE):
     GYG = True
@@ -30,11 +29,11 @@ while True:
             print("Gif Your Game launched successfully!")
             GYG = True
         sleep(20)
-        print("Checking...")
+        print("Checking if Rocket League is running...")
     while GYG:
         if not isrunning(rlEXE):
             os.system("taskkill /f /im  \"Gif Your Game.exe\"")
             print("Closing Gif Your Game...")
             GYG = False
-        sleep(90)
-        print("Checking...")
+        sleep(20)
+        print("Checking if Rocket League is running...")
